@@ -11,6 +11,12 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "app/(tabs)/index.jsx"
+    "app/(tabs)/index.jsx",
+    "hooks/useCustomFonts.js",
+    "app/signin.jsx",
+    "app/TourCard.jsx",
+    "app/_layout.jsx",
+    "app/details.jsx",
+    "app/index.jsx"
   ]
 }

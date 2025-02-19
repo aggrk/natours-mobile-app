@@ -48,7 +48,9 @@ export default function App() {
           <Link href="/signin">
             <Ionicons name="log-in-outline" size={30} color="#1B4332" />
           </Link>
-          <Ionicons name="person-add-outline" size={30} color="#1B4332" />
+          <Link href="/signup">
+            <Ionicons name="person-add-outline" size={30} color="#1B4332" />
+          </Link>
         </View>
       </View>
       <FlatList

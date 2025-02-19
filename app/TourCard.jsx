@@ -10,7 +10,7 @@ import {
 import { Link } from "expo-router"; // Assuming you're using Expo Router
 import { FontAwesome } from "@expo/vector-icons"; // For icons
 
-const TourCard = ({ item, handleInvalidate }) => {
+const TourCard = ({ item }) => {
   return (
     <View style={styles.card}>
       {/* Image */}
@@ -63,10 +63,7 @@ const TourCard = ({ item, handleInvalidate }) => {
             ⭐ {item.ratingsAverage} ({item.ratingsQuantity})
           </Text>
         </View>
-        <TouchableOpacity
-          style={styles.detailsButton}
-          onPress={handleInvalidate}
-        >
+        <TouchableOpacity style={styles.detailsButton}>
           <Link href={`tours/${item._id}`} asChild>
             <Text style={styles.detailsButtonText}>Details</Text>
           </Link>
